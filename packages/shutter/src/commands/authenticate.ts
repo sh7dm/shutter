@@ -1,6 +1,6 @@
 import * as fs from 'mz/fs'
 import * as path from 'path'
-import { getUserConfigPath, loadShutterConfig, updateShutterConfig } from '@shutter/shutterrc'
+import { getUserConfigPath, loadShutterConfig, updateShutterConfig } from '@shutter/core/shutterrc'
 import { CommandFunction } from '../command'
 
 const JWT_REGEX = /^[a-zA-Z0-9\-_]+?\.[a-zA-Z0-9\-_]+?\.([a-zA-Z0-9\-_]+)?$/
